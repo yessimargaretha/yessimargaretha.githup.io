@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Calibri;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Calibri;
+    color: #d268ca;
+	letter-spacing: -4px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.tombol-daftar{
+    border-color: #d268ca;
+    margin-left: 20px;
+    color: #d268ca;
+    font-weight: 500;
+}
+
+.tombol-daftar:hover{
+    background-color: #d268ca;
+    border-color: #d268ca;
+}
+/* Akahir Navbar */
+
+/* Jumbotron */
+.gambar{
+    width: 100%;
+}
+
+.slogan{
+    padding-top: 100px;
+}
+
+.tombol-readmore{
+    border-color: #d268ca;
+    color: #d268ca;
+    font-weight: 500;
+}
+
+.tombol-readmore:hover{
+    background-color: #d268ca;
+    border-color: #d268ca;
+}
+
+#home h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#home {
+    padding-top: 100px;
+}
+/* Akhir Jumbotron */
+
+/* Section Course */
+#Course h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#Course{
+    padding-top: 100px;
+}
+/* Akhir Course */
+
+/* Section Tutours */
+#tutours img{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#tutours h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#tutours{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* Akhir section tutours */
+
+/* section patners */
+#Partners img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#Partners h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+#Partners{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* akhir section patners */
+
+/* Section Pricing */
+#Pricing{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Pricing h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #d268ca;
+}
+
+.kolom-harga{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0,2);
+}
+
+.kolom-harga-personal{
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0,2);
+    transform: scale(1.1);
+}
+
+.diskon{
+    background-color: darkgrey;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.diskon-personal{
+    background-color: #d268ca;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.diskon span{
+    font-size: 18px;
+}
+
+.plan{
+    padding: 20px 0;
+}
+
+.plan span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.harga span{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.harga h3{
+    color: #d268ca;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.harga h3 span{
+    text-decoration: none;
+}
+
+.deskripsi{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.deskripsi span{
+    font-size: small;
+}
+
+.tombol-pilih{
+    padding-bottom: 30px;
+}
+
+.tombol-pilihsekarang{
+    background-color: #d268ca;
+    border-color: #d268ca;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.tombol-pilihsekarang:hover{
+    background-color: #803679;
+    border-color: #803679;
+}
+
+/* Akhir Section Pricing */
+
+/* Section Contact */
+#contact{
+    background-color: lightgrey;
+    padding: 50px 0;
+}
+
+#contact h3{
+    font-weight: bold;
+}
+/* Akhir Section Contact */
